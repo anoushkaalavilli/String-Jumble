@@ -36,11 +36,9 @@ listtext= list(str(text))
 print (''.join(listtext[::-1]))
 
 # makes words backwards
-# splits string into a list of words, not letters
 strtext= (str(text)).split(" ")
-print (strtext)
 for i in (strtext):
-    print (i)
+    print (i[::-1])
     
 
 
