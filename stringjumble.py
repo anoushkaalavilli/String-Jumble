@@ -31,4 +31,4 @@ print ("You entered " + (str(text)) + ". Now jumble it: ")
 # separates each letter
 listtext= list(str(text))
 print (listtext)
-print (listtext(4:0:-1))
+print (listtext[4:0:-1])
