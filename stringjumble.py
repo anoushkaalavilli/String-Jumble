@@ -31,7 +31,7 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 # Credits: 3) http://stackoverflow.com/questions/3249524/print-in-one-line-dynamically
 
 text= input("Please enter a string of text (the bigger the better): ")
-print ("You entered " + (str(text)) + ". Now jumble it: ")
+print ('You entered "' + (str(text)) + '". Now jumble it: ')
 
 # makes everything backwards
 listtext= list(str(text))
