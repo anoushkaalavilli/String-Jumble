@@ -42,7 +42,8 @@ print (' '.join(strtext[::-1]))
 
 # makes letters but not words backwards
 strtext= (str(text)).split(" ")
-print (i[::-1])
+for i in (strtext):
+    print (i[::-1])
 
 
 
