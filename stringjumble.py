@@ -26,7 +26,8 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 # Anoushka Alavilli
-# Credits: http://stackoverflow.com/questions/4481724/convert-a-list-of-characters-into-a-stringhttp://www.dotnetperls.com/split-python
+# Credits: 1) http://stackoverflow.com/questions/4481724/convert-a-list-of-characters-into-a-string 
+# Credits: 2) http://www.dotnetperls.com/split-python
 
 text= input("Please enter a string of text (the bigger the better): ")
 print ("You entered " + (str(text)) + ". Now jumble it: ")
@@ -42,7 +43,7 @@ print (' '.join(strtext[::-1]))
 # makes letters but not words backwards
 strtext= (str(text)).split(" ")
 for i in (strtext):
-    print (''.join(i[::-1]))
+    print (i[::-1])
 
 
 
