@@ -40,7 +40,10 @@ strtext= (str(text)).split(" ")
 for i in (strtext):
     print (i[::-1])
     
-
+# makes words but not letter backwards
+strtext= (str(text)).split(" ")
+for i in (strtext):
+    print
 
 
 
