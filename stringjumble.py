@@ -43,7 +43,7 @@ for i in (strtext):
 # makes words but not letter backwards
 strtext= (str(text)).split(" ")
 for i in (strtext):
-    print
+    print ([::-1])
 
 
 
