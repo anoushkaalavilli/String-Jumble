@@ -31,11 +31,9 @@ text= input("Please enter a string of text (the bigger the better): ")
 print ("You entered " + (str(text)) + ". Now jumble it: ")
 
     # separates each letter
-#listtext= list(str(text))
-#print (listtext)
-#print (listtext[4::-1])
-#print (str(listtext[4::-1]))
-print (''.join(listtext[4::-1]))
+listtext= list(str(text))
+print (''.join(listtext[::-1]))
+
 
 
 
