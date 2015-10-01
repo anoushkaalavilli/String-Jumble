@@ -45,7 +45,7 @@ strtext= (str(text)).split(" ")
 for i in (strtext):
     #x=(i)
 #print (x[::-1])
-    print (i[::-1])
+    print ((i[::-1]), end=" ")
 
 
 
