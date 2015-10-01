@@ -28,7 +28,21 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 text= input("Please enter a string of text (the bigger the better): ")
 print ("You entered " + (str(text)) + ". Now jumble it: ")
 
-# separates each letter
+    # separates each letter
 listtext= list(str(text))
-print (listtext)
-print (listtext[4:0:-1])
+#print (listtext)
+#print (listtext[4::-1])
+#print (str(listtext[4::-1]))
+#(listtext[4::-1])= str(strtext)
+#print (strtext)
+
+str(strtext)= (listtext[4::-1])
+print (strtext)
+
+
+
+
+
+
+
+
